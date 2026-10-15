@@ -1,4 +1,35 @@
 body {
     background-color: black;
-    color: aliceblue;
-    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header.logo h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.header.logo p {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.header.nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.hero-image {
+    display: flex;
+    justify-content: flex-start;
+}
